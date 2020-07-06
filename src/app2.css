@@ -1,0 +1,35 @@
+#app2 {
+    border: 1px solid grey;
+    width: 50vw;
+    height: 50vh;
+}
+
+#app2 .tab-bar {
+    display: flex;
+
+}
+
+#app2 .tab-bar > li {
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+}
+
+
+#app2 .tab-bar > li.selected {
+    background: #4285f4;
+    color:white;
+}
+
+#app2 .tab-content >li{
+    text-align: center;
+}
+
+#app2 .tab-content >li{
+   display: none;
+}
+
+#app2 .tab-content >li.active{
+    display: block
+}
+
